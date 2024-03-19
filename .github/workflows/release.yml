@@ -23,5 +23,5 @@ jobs:
         with:
           node-version: "lts/*"
       - run: |
-          npm install -D @semantic-release/github @conveyal/maven-semantic-release
+          npm install -D semantic-release@23 conveyal/maven-semantic-release@v5.0.0
           npx semantic-release --skip-maven-deploy
